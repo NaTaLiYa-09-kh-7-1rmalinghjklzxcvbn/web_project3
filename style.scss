@@ -1,0 +1,55 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.gallery {
+    text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em blue;
+    color: red;
+    font: 2.5em Georgia, serif;
+    text-align: center;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0fr);
+    grid-gap: 20px;
+}
+
+.imagess {
+    height: 350px;
+    min-width: 50%;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.createImg {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.createAud {
+    width: 100%;
+    height: 80%;
+    background-color: bisque;
+    display: flex;
+    align-items: center; //vertical-align: middle
+    justify-content: center
+}
+
+.createVid {
+    width: 100%;
+    min-width: 50%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.createText {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
+    margin: 3%;
+}
